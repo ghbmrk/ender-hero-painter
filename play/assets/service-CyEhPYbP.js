@@ -1,4 +1,4 @@
-import{E as e,S as t,_ as n,b as r,x as i,y as a}from"./index-C-iJ-NFp.js";var o={q:`@group(0) @binding(1) var<storage, read> wc: array<u32>;
+import{E as e,S as t,_ as n,b as r,x as i,y as a}from"./index-Pi4l0fW4.js";var o={q:`@group(0) @binding(1) var<storage, read> wc: array<u32>;
 @group(0) @binding(2) var<storage, read> wm: array<vec2<f32>>;
 fn W(i: u32) -> f32 { let c = f32((wc[i >> 2u] >> ((i & 3u) * 8u)) & 255u); let m = wm[i / 128u]; return m.x + c * m.y; }`,f:`@group(0) @binding(1) var<storage, read> wf: array<f32>;
 fn W(i: u32) -> f32 { return wf[i]; }`},s=(e,t,n,r,i,a=1)=>{let s=7*n+(t-1)*a+1,c=s>12?4:8;return`
