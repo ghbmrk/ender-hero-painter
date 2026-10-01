@@ -1,4 +1,10 @@
-# Hero Painter
+# Ender (playable demo)
+
+https://ghbmrk.github.io/ender-hero-painter/ plays Ender, a turn-based mobile fantasy duel game, with its
+characters painted on the player's own device. Built from the private Ender repo by `scripts/publish-pages.sh`;
+`model/` holds the on-device painter described below.
+
+## The painter
 
 Paints the player's hero on the player's own device: no server, no paid inference. A prototype of
 "characters generated on device, evolving with the Loom" before it moves into the game.
